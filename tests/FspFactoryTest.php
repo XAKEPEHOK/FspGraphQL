@@ -60,7 +60,7 @@ class FspFactoryTest extends TestCase
                 'number' => 10,
                 'size' => 50,
             ],
-            'filter' => [
+            'filters' => [
                 ['or' => [
                     ['or' => [
                         ['and' => [

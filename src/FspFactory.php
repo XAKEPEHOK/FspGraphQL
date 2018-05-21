@@ -93,8 +93,8 @@ class FspFactory extends FilterSortPaginateFactory
 
     protected function parseFilters(Dot $data): ?FilterInterface
     {
-        if ($data->has('filter')) {
-            return $this->parse(['and' => $data->get('filter')]);
+        if ($data->has('filters')) {
+            return $this->parse(['and' => $data->get('filters')]);
         } else {
             return null;
         }

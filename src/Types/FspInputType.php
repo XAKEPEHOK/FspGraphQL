@@ -25,7 +25,7 @@ class FspInputType extends InputObjectType
                     'paginate' => [
                         'type' => new PaginateType()
                     ],
-                    'filter' => [
+                    'filters' => [
                         'type' => FspTypes::andGroup()
                     ],
                 ];
