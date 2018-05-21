@@ -1,0 +1,30 @@
+{
+    "name": "xakepehok/fsp-graphql",
+    "type": "library",
+    "description": "Djin FilterSortPaginate + GraphQL",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "XAKEPEHOK",
+            "email": "icq-475204@ya.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "webonyx/graphql-php": "^0.11.6",
+        "djinorm/djin-filter-sort-paginate": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "XAKEPEHOK\\FspGraphQL\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "XAKEPEHOK\\FspGraphQL\\": "tests/"
+        }
+    }
+}
